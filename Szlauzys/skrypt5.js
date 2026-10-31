@@ -7,4 +7,4 @@ liczba_miesiac=Math.floor(Math.random() * 12) + 1;
 liczba_tydzien=Math.floor(Math.random() * 7) + 1;
 
 alert("Wylosowana liczba miesiaca to: "+liczba_miesiac+" czyli "+miesiace[--liczba_miesiac]+"\nWylosowana liczba tygodnia to: "+liczba_tydzien+" czyli "+dni[--liczba_tydzien]);
-}while(confirm("Czy jeszcze raz?"))
+}while(confirm("Czy jeszcze raz?"))//brak ;
